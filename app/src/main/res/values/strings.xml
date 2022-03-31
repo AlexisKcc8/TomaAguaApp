@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">TomaAguaApp</string>
+    <string name="txt_title_ubicaciones">Ubicaciones</string>
+    <string name="txt_title_inicio">Inicio</string>
+    <string name="txt_desc_mapatec">Mapa del Tecnológico vía satélital</string>
+    <string name="txt_desc_spi_edificios">Spinner de los edificios</string>
 
     <string name="name_app">U’UK JA’</string>
     <string name="slogan_app">Hidratate Sanamente</string>

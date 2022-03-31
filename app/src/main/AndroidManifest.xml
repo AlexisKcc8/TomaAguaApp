@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TomaAguaApp">
+      
+        <activity
+            android:name=".PrincipalAdminActivity"
+            android:exported="false" />
+      
+        <activity
+            android:name=".UbicacionesActivity"
+            android:exported="false" />
+      
         <activity
             android:name=".login"
             android:exported="false" >
