@@ -5,6 +5,17 @@
     <string name="txt_desc_mapatec">Mapa del Tecnológico vía satélital</string>
     <string name="txt_desc_spi_edificios">Spinner de los edificios</string>
 
+    <string name="name_app">U’UK JA’</string>
+    <string name="slogan_app">Hidratate Sanamente</string>
+
+    <string name="txt_login">Login</string>
+
+    <string name="txt_correo">Correo Institucional</string>
+    <string name="txt_contraseña">Contraseña</string>
+
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
+
     <string-array name="EdificiosItem">
         <item>EDIFICIO A</item>
         <item>EDIFICIO B</item>
@@ -12,5 +23,4 @@
         <item>EDIFICIO D</item>
         <item>CENTRO DE INFORMACION</item>
     </string-array>
-
 </resources>

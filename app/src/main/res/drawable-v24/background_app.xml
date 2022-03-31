@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white">
+            <shape android:shape="rectangle">
+                <stroke android:width="1000dp"
+                    android:color="@color/splash_blue" />
+                    <solid  android:color="@android:color/transparent" />
+            </shape>
+    </item>
+    <item android:drawable="@drawable/ic_login_bg" android:height="400dp"/>
+</layer-list>
