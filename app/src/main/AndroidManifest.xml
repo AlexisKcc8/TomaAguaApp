@@ -19,11 +19,9 @@
         <activity
             android:name=".volverse_premium"
             android:exported="false" />
+        
         <activity
-            android:name=".RegistroGarrafones"
-                  
             android:name=".PrincipalAdminActivity"
-
             android:exported="false" />
       
         <activity
