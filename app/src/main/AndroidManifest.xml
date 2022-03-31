@@ -11,7 +11,19 @@
         android:theme="@style/Theme.TomaAguaApp">
       
         <activity
+            android:name=".RecuperarC_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarC_Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".volverse_premium"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroGarrafones"
+                  
             android:name=".PrincipalAdminActivity"
+
             android:exported="false" />
       
         <activity
@@ -34,6 +46,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
           
         <activity
             android:name=".RegistroGarrafones"
