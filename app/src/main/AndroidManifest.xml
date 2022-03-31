@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TomaAguaApp">
         <activity
+            android:name=".PrincipalAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbicacionesActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistroGarrafones"
             android:exported="false" />
         <activity
