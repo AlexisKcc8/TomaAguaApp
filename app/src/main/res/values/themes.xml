@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TomaAguaApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.TomaAguaApp" parent="Theme.AppCompat.Light">
         <!-- Primary brand color. -->
         <item name="colorPrimary">
             @color/purple_500
@@ -27,4 +27,20 @@
         </item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="text_title_premium_rec" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/amaranth</item>
+    </style>
+    <style name="texto_alertpremium">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/amaranth</item>
+    </style>
+
+    <dimen name="text_title">50sp</dimen>
 </resources>
