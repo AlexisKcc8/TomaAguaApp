@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable-v24/background_app.xml" value="0.255" />
+        <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable-v24/ic_login_bg.xml" value="0.255" />
         <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable-v24/progress_barSplash_style.xml" value="0.255" />
+        <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable/button_rounded.xml" value="0.255" />
+        <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable/conten_login_rounded.xml" value="0.255" />
         <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable/pb_splash_style.xml" value="0.255" />
+        <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_login.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_main.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/KleyA/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_splash.xml" value="0.22418478260869565" />
       </map>

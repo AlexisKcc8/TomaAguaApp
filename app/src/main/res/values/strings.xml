@@ -2,4 +2,12 @@
     <string name="app_name">TomaAguaApp</string>
     <string name="name_app">U’UK JA’</string>
     <string name="slogan_app">Hidratate Sanamente</string>
+
+    <string name="txt_login">Login</string>
+
+    <string name="txt_correo">Correo Institucional</string>
+    <string name="txt_contraseña">Contraseña</string>
+
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
 </resources>

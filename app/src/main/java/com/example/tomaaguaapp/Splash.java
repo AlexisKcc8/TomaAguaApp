@@ -22,8 +22,8 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        getSupportActionBar().hide();
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //getSupportActionBar().hide();
+        //getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         pbar = findViewById(R.id.pb_splash);
 
@@ -59,7 +59,7 @@ public class Splash extends AppCompatActivity {
                     }
                     if(i==100){
                         //Toast.makeText(MainActivity.this, "Se lleno", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(Splash.this, MainActivity.class);
+                        Intent intent = new Intent(Splash.this, login.class);
                         startActivity(intent);
                         finish();
                     }
