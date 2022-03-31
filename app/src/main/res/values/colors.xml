@@ -21,4 +21,7 @@
     <color name="white">
         #FFFFFFFF
     </color>
+    <color name="splash_blue">
+        #33D8FF
+    </color>
 </resources>

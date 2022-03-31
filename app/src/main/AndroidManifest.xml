@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TomaAguaApp">
+      
         <activity
             android:name=".RecuperarC_Admin"
             android:exported="false" />
@@ -20,10 +21,25 @@
             android:exported="false" />
         <activity
             android:name=".RegistroGarrafones"
+                  
+            android:name=".PrincipalAdminActivity"
+
             android:exported="false" />
+      
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".UbicacionesActivity"
+            android:exported="false" />
+      
+        <activity
+            android:name=".login"
+            android:exported="false" >
+
+        </activity>
+
+        <activity
+            android:name=".Splash"
+            android:exported="false">
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,9 +47,22 @@
             </intent-filter>
         </activity>
 
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+          
+        <activity
+            android:name=".RegistroGarrafones"
+            android:exported="false"></activity>
+          
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
     </application>
 
 </manifest>
