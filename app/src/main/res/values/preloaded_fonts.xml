@@ -2,5 +2,9 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amaranth</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/gugi</item>
+        <item>@font/jacques_francois</item>
+        <item>@font/patua_one</item>
     </array>
 </resources>

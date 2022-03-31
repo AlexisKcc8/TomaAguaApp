@@ -43,6 +43,26 @@
         <item name="android:layout_margin">10dp</item>
         <item name="android:fontFamily">@font/amaranth</item>
     </style>
+    <style name="text_title">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/splash_blue</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/cherry_swash</item>
+    </style>
+    <style name="text_input">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/patua_one</item>
+    </style>
+    <style name="text_normal">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/jacques_francois</item>
+    </style>
 
     <dimen name="text_title">50sp</dimen>
 </resources>
