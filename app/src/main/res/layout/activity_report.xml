@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_report">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:text="Realizar Reporte"
+        android:textColor="#151515"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/edificios"
+        android:layout_width="209dp"
+        android:backgroundTint="@color/purple_500"
+
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="211dp"
+        android:layout_height="43dp"
+        android:background="@drawable/borderredencuesta"
+        android:backgroundTint="@color/purple_500"
+        android:text="Dispensador:"
+        android:textColor="#171616"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="207dp"
+        android:layout_height="43dp"
+        android:background="@drawable/borderredencuesta"
+        android:backgroundTint="@color/purple_500"
+        android:onClick="abrircalendario"
+        android:text="Fecha:"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/contacto"
+        android:layout_width="310dp"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/borderredencuesta"
+        android:hint="Déjanos tu Opinion"
+        android:inputType="text|textMultiLine"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E81313"
+        android:text="Reporte"
+        android:textColor="#F4F1F1"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="657dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
