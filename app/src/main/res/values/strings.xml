@@ -7,6 +7,12 @@
     <string name="premium_2">¿Deseas Comprar la Version Premium?</string>
     <string name="todo">TODO</string>
     <string name="comprar_premium">Comprar Premium</string>
+    <string name="btn_log_admin">Administrador</string>
+    <string name="btn_gotoreportes">Reportar</string>
+    <string name="btn_gotoubicaciones">Ubicaciones</string>
+    <string name="btn_gotopremium">Premium</string>
+    <string name="btn_gotoverreportes">Ver reportes</string>
+    <string name="btn_gotodaralta">Dar de alta</string>
 
     <string name="button">Button</string>
     <string name="enviar_reporte_de_recuperaci_n">Enviar Reporte de Recuperación</string>
@@ -27,12 +33,18 @@
     <string name="btn_login">Iniciar Sesión</string>
     <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
 
-    <string-array name="EdificiosItem">
-        <item>EDIFICIO A</item>
-        <item>EDIFICIO B</item>
-        <item>EDIFICIO C</item>
-        <item>EDIFICIO D</item>
-        <item>CENTRO DE INFORMACION</item>
-    </string-array>
+    <string name="re_garra">REGISTRO DE GARRAFONES</string>
+    <string name = "num_dis">Numero de dispensador</string>
+    <string name="cont_lit">Contenido actual en litros</string>
+    <string name="dispo">DISPONIBILIDAD</string>
+    <string name="water">AGUA FRIA</string>
+    <string name="waterhot">AGUA CALIENTE</string>
+    <string name="ubi">UBICACIÓN</string>
+    <string name="borra">Borrar</string>
+    <string name="guarda">GUARDAR</string>
+    <string name="add">AÑADIR NUEVO</string>
+    <string name="re_report">Realizar Reporte</string>
+    <string name="dispe">Dispensador</string>
+    <string name="info">El edificio A cuenta con 3 dispensadores actualmente.</string>
 
 </resources>

@@ -10,23 +10,27 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:text="Realizar Reporte"
-        android:textColor="#151515"
-        android:textSize="24sp"
+        android:text="@string/re_report"
+        style="@style/text_title"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
 
     <Spinner
         android:id="@+id/edificios"
         android:layout_width="209dp"
-        android:backgroundTint="@color/purple_500"
-
         android:layout_height="46dp"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="214dp" />
+        android:background="@drawable/button_onlyborder"
+        android:backgroundTint="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
 
     <Button
         android:id="@+id/button2"
@@ -34,10 +38,13 @@
         android:layout_height="43dp"
         android:background="@drawable/borderredencuesta"
         android:backgroundTint="@color/purple_500"
-        android:text="Dispensador:"
+        android:text="@string/dispe"
         android:textColor="#171616"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
 
     <Button
         android:id="@+id/button3"
@@ -47,15 +54,18 @@
         android:backgroundTint="@color/purple_500"
         android:onClick="abrircalendario"
         android:text="Fecha:"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
 
     <EditText
         android:id="@+id/contacto"
         android:layout_width="310dp"
         android:layout_height="150dp"
         android:layout_gravity="bottom|center"
-        android:layout_marginBottom="112dp"
         android:background="@drawable/borderredencuesta"
         android:hint="Déjanos tu Opinion"
         android:inputType="text|textMultiLine"
@@ -67,8 +77,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795" />
 
     <Button
         android:id="@+id/button4"
@@ -77,6 +89,10 @@
         android:backgroundTint="#E81313"
         android:text="Reporte"
         android:textColor="#F4F1F1"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="657dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
 </androidx.constraintlayout.widget.ConstraintLayout>

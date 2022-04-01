@@ -20,12 +20,18 @@
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable/wave_bg_premium2.xml" value="0.115" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable/wave_bg_recuperar_c.xml" value="0.115" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/drawable/wave_bg_recuperar_contrasenia.xml" value="0.115" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_home.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_principal_admin.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_recuperar_cadmin.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_recuperar_cusuario.xml" value="0.264" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_registro_garrafones.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_registro.xml" value="0.1" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_registro_garrafones.xml" value="0.2" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_report.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_splash.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_ubicaciones.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_verr_reportes.xml" value="0.264" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/activity_volverse_premium.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/TomaAguaApp/app/src/main/res/layout/alertpremium.xml" value="0.19610507246376813" />
       </map>
