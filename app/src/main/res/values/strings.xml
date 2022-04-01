@@ -34,6 +34,7 @@
     <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
 
     <string name="re_garra">Registro de Garrrafones</string>
+
     <string name="num_dis">Numero de dispensador</string>
     <string name="cont_lit">Contenido actual en litros</string>
     <string name="dispo">Disponibilidad</string>
@@ -50,6 +51,11 @@
     <string name="btn_reporte">Reportar</string>
     <string name="date_reporte">Fecha</string>
     <string name="hit_reporte">Dejanos tu Opinion</string>
+
+    <string name="title_status">Status</string>
+    <string name="dispoStatus">Disponibilidad</string>
+    <string name="item_frio">Frio</string>
+
     <string name="txt_btn_verreporte">Ver Reporte</string>
     <string name="txt_title_verreporte">Reportes</string>
     <string name="txt_matricula">6578 Ha realizado un reporte</string>
@@ -57,5 +63,6 @@
     <string name="txt_matricula_2">6602 Ha realizado un reporte</string>
     <string name="txt_edificio">En el Edificio A - Dispensador 3</string>
     <string name="txt_descripcion_img">Imagen</string>
+
 
 </resources>
