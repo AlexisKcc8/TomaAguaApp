@@ -17,6 +17,5 @@ public class UbicacionesActivity extends AppCompatActivity {
 
         spListaUbicaciones = findViewById(R.id.spinnerEdificios);
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.EdificiosItem, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item);
     }
 }

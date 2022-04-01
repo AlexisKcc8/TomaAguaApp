@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/textView"
-        style="@style/text_title_premium_rec"
+        style="@style/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enviar_reporte_de_recuperaci_n"
+        android:background="@drawable/button_normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

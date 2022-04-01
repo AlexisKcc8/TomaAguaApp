@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TomaAguaApp">
         <activity
+            android:name=".Activity_Registro"
+            android:exported="false" />
+        <activity
             android:name=".activity_report"
             android:exported="false" />
-      
         <activity
             android:name=".Activity_home"
             android:exported="false" />
-      
         <activity
             android:name=".RecuperarC_Admin"
             android:exported="false" />
@@ -26,19 +27,15 @@
         <activity
             android:name=".volverse_premium"
             android:exported="false" />
-        
         <activity
             android:name=".PrincipalAdminActivity"
             android:exported="false" />
-      
         <activity
             android:name=".UbicacionesActivity"
             android:exported="false" />
-      
         <activity
             android:name=".login"
             android:exported="false" />
-      
         <activity
             android:name=".Splash"
             android:exported="false">
@@ -49,12 +46,10 @@
             </intent-filter>
         </activity>
 
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-          
         <activity
             android:name=".RegistroGarrafones"
             android:exported="false" />
