@@ -63,6 +63,7 @@
     <string name="txt_matricula_2">6602 Ha realizado un reporte</string>
     <string name="txt_edificio">En el Edificio A - Dispensador 3</string>
     <string name="txt_descripcion_img">Imagen</string>
+    <string name="showEstatus">Estatus</string>
 
 
 </resources>

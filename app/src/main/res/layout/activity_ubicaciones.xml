@@ -49,7 +49,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646"
+        app:layout_constraintVertical_bias="0.576"
         app:srcCompat="@mipmap/mapatec" />
 
     <Spinner
@@ -61,8 +61,23 @@
         android:contentDescription="@string/txt_desc_spi_edificios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/btn_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_onlyborder"
+        style="@style/text_normal"
+        android:textAllCaps="false"
+        android:text="@string/showEstatus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
 </androidx.constraintlayout.widget.ConstraintLayout>
