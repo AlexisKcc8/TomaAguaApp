@@ -33,16 +33,16 @@
     <string name="btn_login">Iniciar Sesión</string>
     <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
 
-    <string name="re_garra">REGISTRO DE GARRAFONES</string>
-    <string name = "num_dis">Numero de dispensador</string>
+    <string name="re_garra">Registro de Garrrafones</string>
+    <string name="num_dis">Numero de dispensador</string>
     <string name="cont_lit">Contenido actual en litros</string>
-    <string name="dispo">DISPONIBILIDAD</string>
-    <string name="water">AGUA FRIA</string>
-    <string name="waterhot">AGUA CALIENTE</string>
-    <string name="ubi">UBICACIÓN</string>
+    <string name="dispo">Disponibilidad</string>
+    <string name="water">Agua Fría</string>
+    <string name="waterhot">Agua Caliente</string>
+    <string name="ubi">Ubicación</string>
     <string name="borra">Borrar</string>
-    <string name="guarda">GUARDAR</string>
-    <string name="add">AÑADIR NUEVO</string>
+    <string name="guarda">Guardar</string>
+    <string name="add">Añadir nuevo</string>
     <string name="re_report">Realizar Reporte</string>
     <string name="dispe">Dispensador</string>
     <string name="info">El edificio A cuenta con 3 dispensadores actualmente.</string>
@@ -50,5 +50,12 @@
     <string name="btn_reporte">Reportar</string>
     <string name="date_reporte">Fecha</string>
     <string name="hit_reporte">Dejanos tu Opinion</string>
+    <string name="txt_btn_verreporte">Ver Reporte</string>
+    <string name="txt_title_verreporte">Reportes</string>
+    <string name="txt_matricula">6578 Ha realizado un reporte</string>
+    <string name="txt_fecha">01/04/2022</string>
+    <string name="txt_matricula_2">6602 Ha realizado un reporte</string>
+    <string name="txt_edificio">En el Edificio A - Dispensador 3</string>
+    <string name="txt_descripcion_img">Imagen</string>
 
 </resources>
