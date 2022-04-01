@@ -4,48 +4,49 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_logo_app"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_logo_app_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TomaAguaApp">
         <activity
+
             android:name=".garrafon_status"
             android:exported="true">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity
-            android:name=".Activity_Registro"
-            android:exported="true" />
+      
         <activity
             android:name=".activity_report"
             android:exported="true" />
+      
         <activity
             android:name=".Activity_home"
+
             android:exported="true" />
-        <activity
-            android:name=".RecuperarC_Admin"
-            android:exported="true" />
+
+            android:exported="true"></activity>
+
+     
         <activity
             android:name=".RecuperarC_Usuario"
+
             android:exported="true" />
+  
         <activity
             android:name=".volverse_premium"
             android:exported="true" />
-        <activity
-            android:name=".PrincipalAdminActivity"
-            android:exported="false" />
+  
+        
         <activity
             android:name=".UbicacionesActivity"
             android:exported="true" />
+
+            android:exported="true"></activity>
+        
         <activity
             android:name=".login"
             android:exported="true" />
+
         <activity
             android:name=".Splash"
             android:exported="true">

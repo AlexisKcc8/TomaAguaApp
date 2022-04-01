@@ -25,44 +25,24 @@ public class volverse_premium extends AppCompatActivity {
         });
     }
     private void ComprarPremium(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(volverse_premium.this);
-        LayoutInflater inflater = getLayoutInflater();
-        View view = inflater.inflate(R.layout.alertpremium, null);
-        builder.setView(view);
-        AlertDialog dialog = builder.create();
-        dialog.show();
-        Button conf = view.findViewById(R.id.confirmarpremium);
-        conf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder builder1 = new AlertDialog.Builder(volverse_premium.this);
-                builder1.setTitle("Convertirse en premium");
-                builder1.setMessage("Confirme")
-                        .setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                Toast.makeText(volverse_premium.this, "Se comprado exitosamente", Toast.LENGTH_SHORT).show();
-                                dialog.dismiss();
-                            }
-                        })
-                        .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                Toast.makeText(volverse_premium.this, "Cancelado", Toast.LENGTH_SHORT).show();
-                            }
-                        })
-                        .setCancelable(false)
-                        .show();
-                dialog.dismiss();
-            }
-        });
-        Button canc = view.findViewById(R.id.cancelarpremium);
-        canc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(volverse_premium.this, "Cancelado", Toast.LENGTH_SHORT).show();
-                dialog.dismiss();
-            }
-        });
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Volverse Premium");
+        builder.setMessage("¿Desea convertirse en Premium?")
+                .setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        Toast.makeText(getApplicationContext(), "Se ha realizado la compra correctamente", Toast.LENGTH_SHORT).show();
+                        dialogInterface.dismiss();
+                    }
+                })
+                .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(getApplicationContext(), "Cancelado", Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .setCancelable(false)
+                .show();
     }
 }
