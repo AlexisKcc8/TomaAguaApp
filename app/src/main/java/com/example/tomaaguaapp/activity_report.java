@@ -19,6 +19,7 @@ public class activity_report extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report);
+        tv = findViewById(R.id.tv);
         opciones = (Spinner) findViewById(R.id.edificios);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Opciones, android.R.layout.simple_spinner_item);

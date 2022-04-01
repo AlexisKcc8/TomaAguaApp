@@ -17,28 +17,40 @@
             android:exported="false" />
         <activity
             android:name=".Activity_home"
-            android:exported="false" />
+            android:exported="false">
+
+
+        </activity>
         <activity
             android:name=".RecuperarC_Admin"
             android:exported="false" />
         <activity
             android:name=".RecuperarC_Usuario"
-            android:exported="false" />
+            android:exported="false">
+
+        </activity>
         <activity
             android:name=".volverse_premium"
-            android:exported="false" />
+            android:exported="false">
+
+
+        </activity>>
         <activity
             android:name=".PrincipalAdminActivity"
             android:exported="false" />
         <activity
             android:name=".UbicacionesActivity"
-            android:exported="false" />
+            android:exported="false">
+
+        </activity>
+
         <activity
             android:name=".login"
             android:exported="false" />
         <activity
             android:name=".Splash"
             android:exported="false">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

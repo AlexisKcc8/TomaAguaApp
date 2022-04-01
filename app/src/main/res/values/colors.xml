@@ -24,4 +24,10 @@
     <color name="splash_blue">
         #33D8FF
     </color>
+
+    <color name="title">#2196F3</color>
+
+    <color name="button">#00BCD4</color>
+
+    <color name="fondo_app">#009c8c</color>
 </resources>

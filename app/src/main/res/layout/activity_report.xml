@@ -4,95 +4,119 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
     tools:context=".activity_report">
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/re_report"
-        style="@style/text_title"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <Spinner
         android:id="@+id/edificios"
         android:layout_width="209dp"
         android:layout_height="46dp"
         android:background="@drawable/button_onlyborder"
-        android:backgroundTint="@color/purple_500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintVertical_bias="0.575"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_dispensador"
+        style="@style/text_normal"
         android:layout_width="211dp"
         android:layout_height="43dp"
-        android:background="@drawable/borderredencuesta"
-        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/button_onlyborder"
         android:text="@string/dispe"
+        android:textAllCaps="false"
         android:textColor="#171616"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.341"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_date_reporte"
+        style="@style/text_normal"
         android:layout_width="207dp"
         android:layout_height="43dp"
-        android:background="@drawable/borderredencuesta"
-        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/button_onlyborder"
         android:onClick="abrircalendario"
-        android:text="Fecha:"
+        android:text="@string/date_reporte"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.453"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/contacto"
         android:layout_width="310dp"
         android:layout_height="150dp"
         android:layout_gravity="bottom|center"
-        android:background="@drawable/borderredencuesta"
-        android:hint="Déjanos tu Opinion"
+        android:background="@drawable/button_onlyborder"
+        android:hint="@string/hit_reporte"
         android:inputType="text|textMultiLine"
         android:padding="12dp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
+        app:layout_constraintVertical_bias="0.795"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_generate_reporte"
+        style="@style/text_normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
         android:backgroundTint="#E81313"
-        android:text="Reporte"
+        android:text="@string/btn_reporte"
+        android:textAllCaps="false"
         android:textColor="#F4F1F1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.944"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

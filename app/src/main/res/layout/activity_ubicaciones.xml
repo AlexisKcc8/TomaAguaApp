@@ -4,42 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
     tools:context=".UbicacionesActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/img_login"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/img_ubication"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/titleUbicaciones"
+        style="@style/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_title_ubicaciones"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <ImageView
         android:id="@+id/imageMapaTec"
-        android:layout_width="415dp"
+        android:layout_width="match_parent"
         android:layout_height="233dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:contentDescription="@string/txt_desc_mapatec"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.353"
+        app:layout_constraintVertical_bias="0.646"
         app:srcCompat="@mipmap/mapatec" />
 
     <Spinner
         android:id="@+id/spinnerEdificios"
+        style="@style/text_input"
         android:layout_width="344dp"
         android:layout_height="48dp"
+        android:background="@drawable/button_rounded"
         android:contentDescription="@string/txt_desc_spi_edificios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintVertical_bias="0.888" />
 </androidx.constraintlayout.widget.ConstraintLayout>

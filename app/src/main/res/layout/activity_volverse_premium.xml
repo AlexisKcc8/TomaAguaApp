@@ -4,52 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
     tools:context=".volverse_premium">
 
     <TextView
         android:id="@+id/titulo"
-        style="@style/text_title_premium_rec"
+        style="@style/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:fontFamily="@font/amaranth"
         android:text="@string/premium_name"
-        android:textColor="#6D4C41"
-        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="202dp"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/img_login"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:srcCompat="@mipmap/playstore"
-        tools:ignore="ImageContrastCheck"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/img_playstore"
+        tools:ignore="ImageContrastCheck" />
 
     <Button
         android:id="@+id/boton_premium"
+        style="@style/text_normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/premiumstyle"
+        android:background="@drawable/button_rounded"
         android:text="@string/comprar_premium"
-        android:textColor="#F1F8E9"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="182dp"
-        android:layout_height="186dp"
+        android:layout_width="129dp"
+        android:layout_height="143dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

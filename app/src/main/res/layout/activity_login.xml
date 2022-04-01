@@ -19,7 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/txt_sloganLogin"
@@ -44,11 +45,12 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_sloganLogin"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/animation_login" />
+        app:lottie_rawRes="@raw/animation_login"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="550dp"
         app:layout_constraintTop_toBottomOf="@+id/img_login"
         tools:layout_editor_absoluteX="183dp"
         android:background="@drawable/conten_login_rounded"
@@ -56,91 +58,106 @@
 
         <EditText
             android:id="@+id/txt_email"
-
+            style="@style/text_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             android:ems="10"
             android:hint="@string/txt_correo"
             android:inputType="textEmailAddress"
             android:shadowColor="@color/splash_blue"
             android:textColorHint="@color/splash_blue"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_login"
-            tools:ignore="TouchTargetSizeCheck" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.205"
+            tools:ignore="TouchTargetSizeCheck"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/txt_password"
+            style="@style/text_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             android:ems="10"
             android:hint="@string/txt_contraseña"
             android:inputType="textPassword"
             android:shadowColor="@color/splash_blue"
             android:textColorHint="@color/splash_blue"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_email"
-            tools:ignore="TouchTargetSizeCheck" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.337"
+            tools:ignore="TouchTargetSizeCheck"
+            android:autofillHints="" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_init_sesion"
+            style="@style/text_normal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/button_rounded"
             android:text="@string/btn_login"
+            android:textAllCaps="false"
             android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/forgot_pass" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.553"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/button_login_admin"
+            style="@style/text_normal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/button_onlyborder"
             android:text="@string/btn_log_admin"
+            android:textAllCaps="false"
             android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
 
         <TextView
             android:id="@+id/forgot_pass"
+            style="@style/text_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/olvide_contraseña"
-            style="@style/text_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_password" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.434" />
 
         <TextView
             android:id="@+id/txt_login"
+            style="@style/text_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="52dp"
             android:text="@string/txt_login"
-            style="@style/text_title"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextContrastCheck" />
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/img_bubble"
@@ -150,11 +167,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.946"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/bubbles_login" />
+            app:lottie_rawRes="@raw/bubbles_login"
+            tools:ignore="ImageContrastCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,6 +31,7 @@ public class RecuperarC_Usuario extends AppCompatActivity {
                 .setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
+
                         Toast.makeText(RecuperarC_Usuario.this, "Se ha enviado el mensaje exitosamente", Toast.LENGTH_SHORT).show();
                         dialogInterface.dismiss();
                     }

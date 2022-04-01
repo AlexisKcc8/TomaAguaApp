@@ -46,5 +46,9 @@
     <string name="re_report">Realizar Reporte</string>
     <string name="dispe">Dispensador</string>
     <string name="info">El edificio A cuenta con 3 dispensadores actualmente.</string>
+    <string name="title_home">Inicio</string>
+    <string name="btn_reporte">Reportar</string>
+    <string name="date_reporte">Fecha</string>
+    <string name="hit_reporte">Dejanos tu Opinion</string>
 
 </resources>
