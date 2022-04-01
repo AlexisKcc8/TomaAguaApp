@@ -10,47 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TomaAguaApp">
         <activity
+            android:name=".garrafon_status"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Activity_Registro"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity_report"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Activity_home"
-            android:exported="false">
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".RecuperarC_Admin"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".RecuperarC_Usuario"
-            android:exported="false">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".volverse_premium"
-            android:exported="false">
-
-
-        </activity>>
+            android:exported="true" />
         <activity
             android:name=".PrincipalAdminActivity"
             android:exported="false" />
         <activity
             android:name=".UbicacionesActivity"
-            android:exported="false">
-
-        </activity>
-
+            android:exported="true" />
         <activity
             android:name=".login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Splash"
-            android:exported="false">
-
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,7 +62,7 @@
 
         <activity
             android:name=".RegistroGarrafones"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

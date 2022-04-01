@@ -34,7 +34,7 @@
     <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
 
     <string name="re_garra">REGISTRO DE GARRAFONES</string>
-    <string name = "num_dis">Numero de dispensador</string>
+    <string name="num_dis">Numero de dispensador</string>
     <string name="cont_lit">Contenido actual en litros</string>
     <string name="dispo">DISPONIBILIDAD</string>
     <string name="water">AGUA FRIA</string>
@@ -50,5 +50,8 @@
     <string name="btn_reporte">Reportar</string>
     <string name="date_reporte">Fecha</string>
     <string name="hit_reporte">Dejanos tu Opinion</string>
+    <string name="title_status">Status</string>
+    <string name="dispoStatus">Disponibilidad</string>
+    <string name="item_frio">Frio</string>
 
 </resources>
